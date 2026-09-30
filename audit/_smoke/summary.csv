@@ -1,0 +1,3 @@
+﻿recording,hand,exists%,holes,hole_frm,edge_abs_frm,abs_on_screen,abs_mp_sees,nan_absent,beta_sat,beta_max,fit_mm,fit_p95,acc_rr_p99,acc_rr_cma_p99,jit_spk,rot_p99,rot_spk,resid_risky,twist_pd_p95,twist_bad,mp_px_p50,mp_px_p90,mp_cma_p50,mp_mis
+20260820_112346,left,100.00,0,0,0,0,0,0,5,3.00,8.68,17.41,1.94,1.97,0,6.57,1,0,41.65,308,11.22,14.39,9.61,0
+20260820_112346,right,96.10,0,0,12,12,12,12,6,3.00,11.53,22.65,4.40,4.39,0,14.81,1,0,36.17,296,9.96,21.42,10.13,0

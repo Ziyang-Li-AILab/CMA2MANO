@@ -1,0 +1,2586 @@
+{
+ "converter": "convert_last_version_v2",
+ "recordings": {
+  "20260819_152123": {
+   "recording": "20260819_152123",
+   "frames": 1085,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     1085
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 1085,
+   "windows": {
+    "total": 1005,
+    "ok": 1005
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 0.9769174456596375,
+    "fk_reproduces_ace_joints_cam_mm": 3.051227615014085e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9788600364177853e-08,
+     "right": 2.9788600364177853e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "yym",
+     "states": {
+      "fitted": 1085,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.485021895529756,
+     "fit_p95_mm": 12.500239818618828,
+     "twist_p95_max_deg": 35.5,
+     "residual_max_rad": 0.9692916817839431,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.42,
+      "2": 0.79,
+      "3": 1.24,
+      "4": 1.78,
+      "6": 3.12,
+      "8": 4.77,
+      "10": 6.7,
+      "15": 12.47
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.24,
+      "2": 0.43,
+      "3": 0.65,
+      "4": 0.88,
+      "6": 1.43,
+      "8": 2.09,
+      "10": 2.82,
+      "15": 4.86
+     },
+     "seconds": 81.96021229994949
+    },
+    "right": {
+     "subject": "yym",
+     "states": {
+      "fitted": 1085,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 7.312857843294751,
+     "fit_p95_mm": 14.652345773385742,
+     "twist_p95_max_deg": 35.7,
+     "residual_max_rad": 0.9769174104209376,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.1,
+      "2": 0.17,
+      "3": 0.27,
+      "4": 0.38,
+      "6": 0.66,
+      "8": 1.0,
+      "10": 1.39,
+      "15": 2.51
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.05,
+      "2": 0.08,
+      "3": 0.12,
+      "4": 0.15,
+      "6": 0.25,
+      "8": 0.35,
+      "10": 0.46,
+      "15": 0.77
+     },
+     "seconds": 87.66414539993275
+    }
+   },
+   "seconds": 186.0360086999135
+  },
+  "20260819_174057": {
+   "recording": "20260819_174057",
+   "frames": 284,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     284
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 284,
+   "windows": {
+    "total": 204,
+    "ok": 204
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.032078742980957,
+    "fk_reproduces_ace_joints_cam_mm": 2.215061961630127e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9790330757784034e-08,
+     "right": 2.9790330757784034e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "ld",
+     "states": {
+      "fitted": 284,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 5.887038106366359,
+     "fit_p95_mm": 11.976060293557353,
+     "twist_p95_max_deg": 35.9,
+     "residual_max_rad": 0.9502442671495901,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.05,
+      "2": 0.09,
+      "3": 0.14,
+      "4": 0.18,
+      "6": 0.25,
+      "8": 0.32,
+      "10": 0.39,
+      "15": 0.54
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.05,
+      "2": 0.08,
+      "3": 0.13,
+      "4": 0.18,
+      "6": 0.24,
+      "8": 0.31,
+      "10": 0.39,
+      "15": 0.53
+     },
+     "seconds": 32.774604900041595
+    },
+    "right": {
+     "subject": "ld",
+     "states": {
+      "fitted": 284,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 5.597250981106801,
+     "fit_p95_mm": 14.724525051340231,
+     "twist_p95_max_deg": 35.7,
+     "residual_max_rad": 1.032078750718387,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.76,
+      "2": 1.35,
+      "3": 2.08,
+      "4": 3.1,
+      "6": 5.36,
+      "8": 8.14,
+      "10": 11.2,
+      "15": 19.45
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.36,
+      "2": 0.63,
+      "3": 0.96,
+      "4": 1.38,
+      "6": 2.17,
+      "8": 3.05,
+      "10": 3.99,
+      "15": 6.18
+     },
+     "seconds": 33.566390500054695
+    }
+   },
+   "seconds": 71.01730830001179
+  },
+  "20260819_174210": {
+   "recording": "20260819_174210",
+   "frames": 234,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     234
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 234,
+   "windows": {
+    "total": 154,
+    "ok": 154
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 0.9653564691543579,
+    "fk_reproduces_ace_joints_cam_mm": 2.746955007904006e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9792120770366637e-08,
+     "right": 2.9792120770366637e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "ld",
+     "states": {
+      "fitted": 234,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 5.933013702692256,
+     "fit_p95_mm": 12.050522815136581,
+     "twist_p95_max_deg": 35.7,
+     "residual_max_rad": 0.9424614760368181,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.2,
+      "2": 0.39,
+      "3": 0.61,
+      "4": 0.82,
+      "6": 1.35,
+      "8": 1.91,
+      "10": 2.46,
+      "15": 3.79
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.13,
+      "2": 0.21,
+      "3": 0.32,
+      "4": 0.43,
+      "6": 0.65,
+      "8": 0.84,
+      "10": 1.02,
+      "15": 1.39
+     },
+     "seconds": 28.02841710008215
+    },
+    "right": {
+     "subject": "ld",
+     "states": {
+      "fitted": 234,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 5.667185747734695,
+     "fit_p95_mm": 14.724025093187507,
+     "twist_p95_max_deg": 35.7,
+     "residual_max_rad": 0.9653565281687131,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.43,
+      "2": 0.83,
+      "3": 1.25,
+      "4": 1.76,
+      "6": 3.09,
+      "8": 4.67,
+      "10": 6.36,
+      "15": 11.25
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.24,
+      "2": 0.38,
+      "3": 0.55,
+      "4": 0.78,
+      "6": 1.18,
+      "8": 1.68,
+      "10": 2.14,
+      "15": 3.42
+     },
+     "seconds": 29.871287300018594
+    }
+   },
+   "seconds": 61.94694559997879
+  },
+  "20260819_174559": {
+   "recording": "20260819_174559",
+   "frames": 234,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     234
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 234,
+   "windows": {
+    "total": 154,
+    "ok": 154
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 0.9739008545875549,
+    "fk_reproduces_ace_joints_cam_mm": 2.4609701498867764e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9778436605454317e-08,
+     "right": 2.9778436605454317e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "ld",
+     "states": {
+      "fitted": 234,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 5.924324303982882,
+     "fit_p95_mm": 11.945567481745627,
+     "twist_p95_max_deg": 35.8,
+     "residual_max_rad": 0.9276185702312973,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.01,
+      "2": 0.02,
+      "3": 0.03,
+      "4": 0.03,
+      "6": 0.05,
+      "8": 0.06,
+      "10": 0.07,
+      "15": 0.09
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.01,
+      "2": 0.01,
+      "3": 0.02,
+      "4": 0.02,
+      "6": 0.04,
+      "8": 0.05,
+      "10": 0.06,
+      "15": 0.09
+     },
+     "seconds": 28.063343000016175
+    },
+    "right": {
+     "subject": "ld",
+     "states": {
+      "fitted": 234,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 5.669093779750773,
+     "fit_p95_mm": 15.396814811101077,
+     "twist_p95_max_deg": 36.1,
+     "residual_max_rad": 0.9739008750944269,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.76,
+      "2": 1.39,
+      "3": 2.16,
+      "4": 3.05,
+      "6": 4.99,
+      "8": 7.15,
+      "10": 9.36,
+      "15": 15.06
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.54,
+      "2": 0.93,
+      "3": 1.38,
+      "4": 1.88,
+      "6": 2.92,
+      "8": 3.99,
+      "10": 5.01,
+      "15": 7.6
+     },
+     "seconds": 28.7298235000344
+    }
+   },
+   "seconds": 60.838006200036034
+  },
+  "20260819_174759": {
+   "recording": "20260819_174759",
+   "frames": 236,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     236
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 236,
+   "windows": {
+    "total": 156,
+    "ok": 156
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.0407663583755493,
+    "fk_reproduces_ace_joints_cam_mm": 2.4213604787881593e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9801688228303647e-08,
+     "right": 2.9801688228303647e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "ld",
+     "states": {
+      "fitted": 236,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.000433066496907,
+     "fit_p95_mm": 12.154587892133748,
+     "twist_p95_max_deg": 35.7,
+     "residual_max_rad": 0.915825380838697,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.06,
+      "2": 0.05,
+      "3": 0.06,
+      "4": 0.06,
+      "6": 0.08,
+      "8": 0.09,
+      "10": 0.11,
+      "15": 0.15
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.08,
+      "2": 0.07,
+      "3": 0.07,
+      "4": 0.08,
+      "6": 0.09,
+      "8": 0.11,
+      "10": 0.12,
+      "15": 0.15
+     },
+     "seconds": 30.66082320001442
+    },
+    "right": {
+     "subject": "ld",
+     "states": {
+      "fitted": 236,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 5.647784735222166,
+     "fit_p95_mm": 14.882465553048174,
+     "twist_p95_max_deg": 35.9,
+     "residual_max_rad": 1.0407663996007057,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.65,
+      "2": 1.24,
+      "3": 1.96,
+      "4": 2.85,
+      "6": 4.97,
+      "8": 7.6,
+      "10": 10.62,
+      "15": 19.62
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.24,
+      "2": 0.42,
+      "3": 0.64,
+      "4": 0.9,
+      "6": 1.38,
+      "8": 1.91,
+      "10": 2.44,
+      "15": 3.67
+     },
+     "seconds": 31.63636060000863
+    }
+   },
+   "seconds": 65.80340259999502
+  },
+  "20260820_112346": {
+   "recording": "20260820_112346",
+   "frames": 308,
+   "time_gaps": [
+    {
+     "after_frame": 0,
+     "ms": 299.995
+    },
+    {
+     "after_frame": 1,
+     "ms": 66.668
+    }
+   ],
+   "clip_ranges": [
+    [
+     12,
+     308
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 296,
+   "windows": {
+    "total": 228,
+    "ok": 216
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.0732911825180054,
+    "fk_reproduces_ace_joints_cam_mm": 2.235369422898259e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9782739718875462e-08,
+     "right": 2.9782739718875462e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 308,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 8.695582572829018,
+     "fit_p95_mm": 19.610421777768558,
+     "twist_p95_max_deg": 36.0,
+     "residual_max_rad": 1.064796003687625,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.09,
+      "2": 0.17,
+      "3": 0.26,
+      "4": 0.36,
+      "6": 0.59,
+      "8": 0.87,
+      "10": 1.19,
+      "15": 2.17
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.05,
+      "2": 0.09,
+      "3": 0.12,
+      "4": 0.15,
+      "6": 0.22,
+      "8": 0.3,
+      "10": 0.38,
+      "15": 0.61
+     },
+     "seconds": 35.79497950000223
+    },
+    "right": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 296,
+      "filled": 0,
+      "unknown": 12,
+      "absent": 0
+     },
+     "events": [
+      [
+       0,
+       12,
+       "unknown",
+       "recording_start"
+      ]
+     ],
+     "fit_mean_mm": 11.803418058168164,
+     "fit_p95_mm": 22.536301807150757,
+     "twist_p95_max_deg": 36.0,
+     "residual_max_rad": 1.0732911591646768,
+     "flag_counts": {
+      "cma_invalid": 12,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 12
+     },
+     "holdout_mean_mm": {
+      "1": 0.1,
+      "2": 0.17,
+      "3": 0.24,
+      "4": 0.33,
+      "6": 0.57,
+      "8": 0.83,
+      "10": 1.14,
+      "15": 2.07
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.08,
+      "2": 0.1,
+      "3": 0.13,
+      "4": 0.16,
+      "6": 0.24,
+      "8": 0.32,
+      "10": 0.4,
+      "15": 0.65
+     },
+     "seconds": 37.944907899945974
+    }
+   },
+   "seconds": 78.47082429996226
+  },
+  "20260820_112958": {
+   "recording": "20260820_112958",
+   "frames": 360,
+   "time_gaps": [
+    {
+     "after_frame": 10,
+     "ms": 66.667
+    },
+    {
+     "after_frame": 24,
+     "ms": 99.998
+    },
+    {
+     "after_frame": 79,
+     "ms": 266.666
+    }
+   ],
+   "clip_ranges": [
+    [
+     80,
+     360
+    ]
+   ],
+   "short_ranges": [
+    [
+     0,
+     11
+    ],
+    [
+     11,
+     25
+    ],
+    [
+     25,
+     80
+    ]
+   ],
+   "frames_in_clips": 280,
+   "windows": {
+    "total": 280,
+    "ok": 200
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.031084656715393,
+    "fk_reproduces_ace_joints_cam_mm": 2.984301861186367e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9787488253774086e-08,
+     "right": 2.9787488253774086e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 360,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 8.713437567792537,
+     "fit_p95_mm": 19.2928137784526,
+     "twist_p95_max_deg": 35.9,
+     "residual_max_rad": 1.031084693121796,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.35,
+      "2": 0.64,
+      "3": 0.99,
+      "4": 1.41,
+      "6": 2.47,
+      "8": 3.79,
+      "10": 5.31,
+      "15": 9.97
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.26,
+      "2": 0.46,
+      "3": 0.66,
+      "4": 0.92,
+      "6": 1.51,
+      "8": 2.24,
+      "10": 3.02,
+      "15": 5.42
+     },
+     "seconds": 36.731968999956734
+    },
+    "right": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 360,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 12.072506774065118,
+     "fit_p95_mm": 19.94625890668117,
+     "twist_p95_max_deg": 35.8,
+     "residual_max_rad": 0.9736165119208042,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02,
+      "4": 0.02,
+      "6": 0.03,
+      "8": 0.03,
+      "10": 0.04,
+      "15": 0.05
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.02,
+      "4": 0.02,
+      "6": 0.03,
+      "8": 0.03,
+      "10": 0.03,
+      "15": 0.04
+     },
+     "seconds": 41.90350210003089
+    }
+   },
+   "seconds": 85.36641189991497
+  },
+  "20260820_125531": {
+   "recording": "20260820_125531",
+   "frames": 275,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     275
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 275,
+   "windows": {
+    "total": 195,
+    "ok": 195
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.7754806280136108,
+    "fk_reproduces_ace_joints_cam_mm": 3.263933712194245e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.980115731965327e-08,
+     "right": 2.980115731965327e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 272,
+      "filled": 3,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [
+      [
+       146,
+       149,
+       "filled",
+       "short_interior_hole"
+      ]
+     ],
+     "fit_mean_mm": 8.816064942001637,
+     "fit_p95_mm": 20.494703634529085,
+     "twist_p95_max_deg": 36.0,
+     "residual_max_rad": 1.775480660678649,
+     "flag_counts": {
+      "cma_invalid": 3,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 3,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 1.08,
+      "2": 1.92,
+      "3": 3.15,
+      "4": 4.4,
+      "6": 7.44,
+      "8": 10.59,
+      "10": 13.89,
+      "15": 22.91
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.57,
+      "2": 1.02,
+      "3": 1.58,
+      "4": 2.14,
+      "6": 3.4,
+      "8": 4.56,
+      "10": 5.77,
+      "15": 8.88
+     },
+     "seconds": 32.50034999998752
+    },
+    "right": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 275,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 13.299425651502466,
+     "fit_p95_mm": 22.241967689056224,
+     "twist_p95_max_deg": 36.0,
+     "residual_max_rad": 1.0525215378408725,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 1.1,
+      "2": 2.11,
+      "3": 3.22,
+      "4": 4.61,
+      "6": 7.85,
+      "8": 11.52,
+      "10": 15.43,
+      "15": 25.47
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.48,
+      "2": 0.81,
+      "3": 1.24,
+      "4": 1.75,
+      "6": 2.67,
+      "8": 3.65,
+      "10": 4.59,
+      "15": 6.82
+     },
+     "seconds": 30.859720599954017
+    }
+   },
+   "seconds": 75.93690969992895
+  },
+  "20260820_133741": {
+   "recording": "20260820_133741",
+   "frames": 333,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     333
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 333,
+   "windows": {
+    "total": 253,
+    "ok": 253
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 0.9967721104621887,
+    "fk_reproduces_ace_joints_cam_mm": 3.307475293645723e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.979952751225312e-08,
+     "right": 2.979952751225312e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 333,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 8.650164067785342,
+     "fit_p95_mm": 19.132085615788117,
+     "twist_p95_max_deg": 35.9,
+     "residual_max_rad": 0.9967721342660957,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.1,
+      "2": 0.11,
+      "3": 0.13,
+      "4": 0.16,
+      "6": 0.22,
+      "8": 0.28,
+      "10": 0.32,
+      "15": 0.44
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.1,
+      "2": 0.09,
+      "3": 0.1,
+      "4": 0.12,
+      "6": 0.14,
+      "8": 0.18,
+      "10": 0.2,
+      "15": 0.26
+     },
+     "seconds": 34.89157310000155
+    },
+    "right": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 333,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 12.99664380676187,
+     "fit_p95_mm": 23.171349456404762,
+     "twist_p95_max_deg": 35.9,
+     "residual_max_rad": 0.9793438442437654,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.58,
+      "2": 1.04,
+      "3": 1.64,
+      "4": 2.4,
+      "6": 4.19,
+      "8": 6.38,
+      "10": 8.76,
+      "15": 15.61
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.33,
+      "2": 0.56,
+      "3": 0.82,
+      "4": 1.12,
+      "6": 1.78,
+      "8": 2.46,
+      "10": 3.14,
+      "15": 4.8
+     },
+     "seconds": 34.02856869995594
+    }
+   },
+   "seconds": 77.45495090004988
+  },
+  "20260820_133925": {
+   "recording": "20260820_133925",
+   "frames": 252,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     252
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 252,
+   "windows": {
+    "total": 172,
+    "ok": 172
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.5149269104003906,
+    "fk_reproduces_ace_joints_cam_mm": 2.3491377301732008e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9790089284276178e-08,
+     "right": 2.9790089284276178e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 252,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 8.645432292694473,
+     "fit_p95_mm": 19.076132588164572,
+     "twist_p95_max_deg": 36.0,
+     "residual_max_rad": 1.514926849655608,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.43,
+      "2": 0.7,
+      "3": 1.05,
+      "4": 1.49,
+      "6": 2.51,
+      "8": 3.74,
+      "10": 4.96,
+      "15": 8.27
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.24,
+      "2": 0.37,
+      "3": 0.54,
+      "4": 0.7,
+      "6": 1.05,
+      "8": 1.44,
+      "10": 1.81,
+      "15": 2.74
+     },
+     "seconds": 28.979806200019084
+    },
+    "right": {
+     "subject": "lxy",
+     "states": {
+      "fitted": 252,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 13.189934170468021,
+     "fit_p95_mm": 22.01867428720023,
+     "twist_p95_max_deg": 35.9,
+     "residual_max_rad": 0.9795988315650187,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.27,
+      "2": 0.54,
+      "3": 0.86,
+      "4": 1.22,
+      "6": 2.1,
+      "8": 3.13,
+      "10": 4.22,
+      "15": 7.24
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.15,
+      "2": 0.26,
+      "3": 0.4,
+      "4": 0.55,
+      "6": 0.86,
+      "8": 1.19,
+      "10": 1.49,
+      "15": 2.24
+     },
+     "seconds": 27.847015299950726
+    }
+   },
+   "seconds": 61.15882320003584
+  },
+  "20260820_162602": {
+   "recording": "20260820_162602",
+   "frames": 455,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     455
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 455,
+   "windows": {
+    "total": 375,
+    "ok": 375
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.0467480421066284,
+    "fk_reproduces_ace_joints_cam_mm": 3.194984021792635e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9792061151390214e-08,
+     "right": 2.9792061151390214e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 455,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.209732677942631,
+     "fit_p95_mm": 13.400754492307627,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.8345450940319925,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.03,
+      "2": 0.03,
+      "3": 0.04,
+      "4": 0.05,
+      "6": 0.06,
+      "8": 0.07,
+      "10": 0.09,
+      "15": 0.11
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.02,
+      "2": 0.02,
+      "3": 0.03,
+      "4": 0.04,
+      "6": 0.06,
+      "8": 0.07,
+      "10": 0.08,
+      "15": 0.1
+     },
+     "seconds": 36.68544060003478
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 455,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.566901939003131,
+     "fit_p95_mm": 13.35600506536529,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 1.0467480482342495,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.19,
+      "2": 0.33,
+      "3": 0.49,
+      "4": 0.7,
+      "6": 1.2,
+      "8": 1.85,
+      "10": 2.61,
+      "15": 5.02
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.1,
+      "2": 0.16,
+      "3": 0.21,
+      "4": 0.28,
+      "6": 0.43,
+      "8": 0.59,
+      "10": 0.75,
+      "15": 1.22
+     },
+     "seconds": 27.448640100075863
+    }
+   },
+   "seconds": 71.60513969999738
+  },
+  "20260820_164346": {
+   "recording": "20260820_164346",
+   "frames": 389,
+   "time_gaps": [
+    {
+     "after_frame": 0,
+     "ms": 100.0055
+    },
+    {
+     "after_frame": 15,
+     "ms": 66.666
+    },
+    {
+     "after_frame": 88,
+     "ms": 266.667
+    }
+   ],
+   "clip_ranges": [
+    [
+     89,
+     389
+    ]
+   ],
+   "short_ranges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     16
+    ],
+    [
+     16,
+     89
+    ]
+   ],
+   "frames_in_clips": 300,
+   "windows": {
+    "total": 309,
+    "ok": 220
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.0170235633850098,
+    "fk_reproduces_ace_joints_cam_mm": 3.0050487431765305e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9755489960869852e-08,
+     "right": 2.9755489960869852e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 389,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.239332087962339,
+     "fit_p95_mm": 13.668484807354064,
+     "twist_p95_max_deg": 35.5,
+     "residual_max_rad": 0.6589610593294077,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.05,
+      "2": 0.05,
+      "3": 0.05,
+      "4": 0.06,
+      "6": 0.07,
+      "8": 0.08,
+      "10": 0.09,
+      "15": 0.1
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.03,
+      "2": 0.04,
+      "3": 0.04,
+      "4": 0.05,
+      "6": 0.06,
+      "8": 0.07,
+      "10": 0.08,
+      "15": 0.09
+     },
+     "seconds": 25.074354900047183
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 389,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.386785517434957,
+     "fit_p95_mm": 13.466467910167012,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 1.0170235238553815,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.3,
+      "2": 0.52,
+      "3": 0.83,
+      "4": 1.19,
+      "6": 2.01,
+      "8": 3.03,
+      "10": 4.2,
+      "15": 7.7
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.18,
+      "2": 0.29,
+      "3": 0.41,
+      "4": 0.53,
+      "6": 0.81,
+      "8": 1.11,
+      "10": 1.42,
+      "15": 2.26
+     },
+     "seconds": 25.660661999951117
+    }
+   },
+   "seconds": 60.80975909996778
+  },
+  "20260820_164514": {
+   "recording": "20260820_164514",
+   "frames": 337,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     337
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 337,
+   "windows": {
+    "total": 257,
+    "ok": 257
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.021938681602478,
+    "fk_reproduces_ace_joints_cam_mm": 3.2100939351131785e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.97953066663581e-08,
+     "right": 2.97953066663581e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 337,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.209388478590532,
+     "fit_p95_mm": 13.37097175190088,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.830990913262611,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.03,
+      "2": 0.03,
+      "3": 0.04,
+      "4": 0.05,
+      "6": 0.06,
+      "8": 0.06,
+      "10": 0.07,
+      "15": 0.09
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.02,
+      "2": 0.03,
+      "3": 0.04,
+      "4": 0.05,
+      "6": 0.06,
+      "8": 0.07,
+      "10": 0.09,
+      "15": 0.11
+     },
+     "seconds": 21.47447050001938
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 333,
+      "filled": 4,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [
+      [
+       223,
+       227,
+       "filled",
+       "short_interior_hole"
+      ]
+     ],
+     "fit_mean_mm": 6.515482314717579,
+     "fit_p95_mm": 13.101074885573212,
+     "twist_p95_max_deg": 35.5,
+     "residual_max_rad": 1.0219387039726608,
+     "flag_counts": {
+      "cma_invalid": 4,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 4,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.29,
+      "2": 0.51,
+      "3": 0.77,
+      "4": 1.08,
+      "6": 1.81,
+      "8": 2.71,
+      "10": 3.75,
+      "15": 7.0
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.18,
+      "2": 0.3,
+      "3": 0.44,
+      "4": 0.58,
+      "6": 0.83,
+      "8": 1.1,
+      "10": 1.39,
+      "15": 2.12
+     },
+     "seconds": 25.167615200043656
+    }
+   },
+   "seconds": 50.48920539999381
+  },
+  "20260820_165501": {
+   "recording": "20260820_165501",
+   "frames": 308,
+   "time_gaps": [
+    {
+     "after_frame": 0,
+     "ms": 66.666
+    },
+    {
+     "after_frame": 45,
+     "ms": 266.654
+    }
+   ],
+   "clip_ranges": [
+    [
+     46,
+     308
+    ]
+   ],
+   "short_ranges": [
+    [
+     0,
+     1
+    ],
+    [
+     1,
+     46
+    ]
+   ],
+   "frames_in_clips": 262,
+   "windows": {
+    "total": 228,
+    "ok": 182
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.0325347185134888,
+    "fk_reproduces_ace_joints_cam_mm": 2.3221565559339297e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9796599299025672e-08,
+     "right": 2.9796599299025672e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 308,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.198037891402332,
+     "fit_p95_mm": 13.411222685777084,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.7704693085111969,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.02,
+      "2": 0.03,
+      "3": 0.03,
+      "4": 0.04,
+      "6": 0.05,
+      "8": 0.05,
+      "10": 0.06,
+      "15": 0.08
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.01,
+      "2": 0.02,
+      "3": 0.03,
+      "4": 0.03,
+      "6": 0.05,
+      "8": 0.05,
+      "10": 0.06,
+      "15": 0.09
+     },
+     "seconds": 19.858652899973094
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 308,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.477653863963121,
+     "fit_p95_mm": 12.78930588376833,
+     "twist_p95_max_deg": 35.5,
+     "residual_max_rad": 1.0325346715334696,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.21,
+      "2": 0.37,
+      "3": 0.56,
+      "4": 0.8,
+      "6": 1.34,
+      "8": 2.02,
+      "10": 2.83,
+      "15": 5.34
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.13,
+      "2": 0.2,
+      "3": 0.3,
+      "4": 0.39,
+      "6": 0.57,
+      "8": 0.78,
+      "10": 0.99,
+      "15": 1.6
+     },
+     "seconds": 23.021005399990827
+    }
+   },
+   "seconds": 46.52775499993004
+  },
+  "20260820_171620": {
+   "recording": "20260820_171620",
+   "frames": 314,
+   "time_gaps": [
+    {
+     "after_frame": 0,
+     "ms": 66.671
+    }
+   ],
+   "clip_ranges": [
+    [
+     1,
+     314
+    ]
+   ],
+   "short_ranges": [
+    [
+     0,
+     1
+    ]
+   ],
+   "frames_in_clips": 313,
+   "windows": {
+    "total": 234,
+    "ok": 233
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 0.8817669749259949,
+    "fk_reproduces_ace_joints_cam_mm": 2.6159591048902087e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.97735170962099e-08,
+     "right": 2.97735170962099e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 314,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.18588262820843,
+     "fit_p95_mm": 13.32280788260617,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.8139423715350251,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.03,
+      "2": 0.03,
+      "3": 0.04,
+      "4": 0.05,
+      "6": 0.06,
+      "8": 0.07,
+      "10": 0.08,
+      "15": 0.1
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.02,
+      "2": 0.03,
+      "3": 0.04,
+      "4": 0.05,
+      "6": 0.07,
+      "8": 0.08,
+      "10": 0.09,
+      "15": 0.12
+     },
+     "seconds": 28.441263200016692
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 314,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.335955569343047,
+     "fit_p95_mm": 12.803314951967307,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.8817669786842556,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.26,
+      "2": 0.47,
+      "3": 0.74,
+      "4": 1.06,
+      "6": 1.88,
+      "8": 2.9,
+      "10": 4.17,
+      "15": 8.22
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.13,
+      "2": 0.21,
+      "3": 0.29,
+      "4": 0.37,
+      "6": 0.55,
+      "8": 0.76,
+      "10": 0.98,
+      "15": 1.66
+     },
+     "seconds": 19.792741899960674
+    }
+   },
+   "seconds": 52.545720800058916
+  },
+  "20260820_171800": {
+   "recording": "20260820_171800",
+   "frames": 278,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     278
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 278,
+   "windows": {
+    "total": 198,
+    "ok": 198
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 0.8124510049819946,
+    "fk_reproduces_ace_joints_cam_mm": 2.4756100336364995e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9797330380887388e-08,
+     "right": 2.9797330380887388e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 278,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.1870046397243765,
+     "fit_p95_mm": 13.836653274197392,
+     "twist_p95_max_deg": 35.7,
+     "residual_max_rad": 0.8124510457137223,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.28,
+      "2": 0.49,
+      "3": 0.77,
+      "4": 1.12,
+      "6": 1.91,
+      "8": 2.92,
+      "10": 4.11,
+      "15": 7.75
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.17,
+      "2": 0.27,
+      "3": 0.39,
+      "4": 0.56,
+      "6": 0.86,
+      "8": 1.22,
+      "10": 1.6,
+      "15": 2.69
+     },
+     "seconds": 25.571762999985367
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 278,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.242792089521043,
+     "fit_p95_mm": 12.634417076042816,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.7410785824396297,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.02,
+      "2": 0.03,
+      "3": 0.03,
+      "4": 0.04,
+      "6": 0.05,
+      "8": 0.07,
+      "10": 0.08,
+      "15": 0.11
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.01,
+      "2": 0.02,
+      "3": 0.03,
+      "4": 0.04,
+      "6": 0.06,
+      "8": 0.07,
+      "10": 0.08,
+      "15": 0.11
+     },
+     "seconds": 17.476306000025943
+    }
+   },
+   "seconds": 47.061172000016086
+  },
+  "20260820_171819": {
+   "recording": "20260820_171819",
+   "frames": 311,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     311
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 311,
+   "windows": {
+    "total": 231,
+    "ok": 231
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 0.8454158902168274,
+    "fk_reproduces_ace_joints_cam_mm": 2.6042634271306042e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.979018765003616e-08,
+     "right": 2.979018765003616e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 311,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.190227318559985,
+     "fit_p95_mm": 13.388360144625004,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.810376864361423,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.04,
+      "2": 0.05,
+      "3": 0.06,
+      "4": 0.07,
+      "6": 0.09,
+      "8": 0.12,
+      "10": 0.14,
+      "15": 0.18
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.03,
+      "2": 0.04,
+      "3": 0.05,
+      "4": 0.07,
+      "6": 0.1,
+      "8": 0.13,
+      "10": 0.15,
+      "15": 0.19
+     },
+     "seconds": 27.307464099954814
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 311,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.3740098365219495,
+     "fit_p95_mm": 12.88410398129091,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.845415920482557,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.32,
+      "2": 0.57,
+      "3": 0.87,
+      "4": 1.27,
+      "6": 2.18,
+      "8": 3.34,
+      "10": 4.73,
+      "15": 9.1
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.17,
+      "2": 0.29,
+      "3": 0.42,
+      "4": 0.55,
+      "6": 0.84,
+      "8": 1.16,
+      "10": 1.52,
+      "15": 2.41
+     },
+     "seconds": 18.39438220008742
+    }
+   },
+   "seconds": 49.89127399993595
+  },
+  "20260820_174932": {
+   "recording": "20260820_174932",
+   "frames": 546,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     546
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 546,
+   "windows": {
+    "total": 466,
+    "ok": 466
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 0.8679616451263428,
+    "fk_reproduces_ace_joints_cam_mm": 3.242210389053923e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.979857260942964e-08,
+     "right": 2.979857260942964e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 546,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.254320169765506,
+     "fit_p95_mm": 13.785262004600133,
+     "twist_p95_max_deg": 35.7,
+     "residual_max_rad": 0.8679616434846783,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.3,
+      "2": 0.55,
+      "3": 0.84,
+      "4": 1.18,
+      "6": 2.02,
+      "8": 3.01,
+      "10": 4.16,
+      "15": 7.71
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.19,
+      "2": 0.32,
+      "3": 0.46,
+      "4": 0.61,
+      "6": 0.93,
+      "8": 1.25,
+      "10": 1.59,
+      "15": 2.49
+     },
+     "seconds": 33.405871300026774
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 546,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.298924674882916,
+     "fit_p95_mm": 13.353953842055091,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.8661649917725954,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.15,
+      "2": 0.27,
+      "3": 0.4,
+      "4": 0.56,
+      "6": 0.94,
+      "8": 1.4,
+      "10": 1.92,
+      "15": 3.55
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.09,
+      "2": 0.16,
+      "3": 0.23,
+      "4": 0.3,
+      "6": 0.46,
+      "8": 0.62,
+      "10": 0.79,
+      "15": 1.27
+     },
+     "seconds": 24.68465169996489
+    }
+   },
+   "seconds": 66.59364360000473
+  },
+  "20260820_183749": {
+   "recording": "20260820_183749",
+   "frames": 301,
+   "time_gaps": [
+    {
+     "after_frame": 0,
+     "ms": 66.671
+    }
+   ],
+   "clip_ranges": [
+    [
+     1,
+     301
+    ]
+   ],
+   "short_ranges": [
+    [
+     0,
+     1
+    ]
+   ],
+   "frames_in_clips": 300,
+   "windows": {
+    "total": 221,
+    "ok": 220
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 0.8685564398765564,
+    "fk_reproduces_ace_joints_cam_mm": 2.193518811033357e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.973617552193275e-08,
+     "right": 2.973617552193275e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 301,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.2132089048130235,
+     "fit_p95_mm": 13.820999226489608,
+     "twist_p95_max_deg": 36.0,
+     "residual_max_rad": 0.8548882321658242,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.25,
+      "2": 0.48,
+      "3": 0.75,
+      "4": 1.05,
+      "6": 1.79,
+      "8": 2.71,
+      "10": 3.75,
+      "15": 7.01
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.17,
+      "2": 0.31,
+      "3": 0.45,
+      "4": 0.59,
+      "6": 0.94,
+      "8": 1.3,
+      "10": 1.69,
+      "15": 2.77
+     },
+     "seconds": 16.565934799960814
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 301,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.218609299696824,
+     "fit_p95_mm": 12.84417118203899,
+     "twist_p95_max_deg": 35.6,
+     "residual_max_rad": 0.8685564092580185,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.01,
+      "2": 0.01,
+      "3": 0.01,
+      "4": 0.02,
+      "6": 0.02,
+      "8": 0.02,
+      "10": 0.03,
+      "15": 0.04
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.01,
+      "2": 0.01,
+      "3": 0.01,
+      "4": 0.01,
+      "6": 0.02,
+      "8": 0.02,
+      "10": 0.03,
+      "15": 0.04
+     },
+     "seconds": 9.851700900006108
+    }
+   },
+   "seconds": 29.64675700000953
+  },
+  "20260820_190055": {
+   "recording": "20260820_190055",
+   "frames": 211,
+   "time_gaps": [],
+   "clip_ranges": [
+    [
+     0,
+     211
+    ]
+   ],
+   "short_ranges": [],
+   "frames_in_clips": 211,
+   "windows": {
+    "total": 131,
+    "ok": 131
+   },
+   "checks": {
+    "ace_arrays_finite": {
+     "ace_go": true,
+     "ace_hp": true,
+     "ace_trans": true,
+     "ace_joints_cam": true,
+     "ace_betas": true,
+     "ace_joints2d": true
+    },
+    "ace_hp_residual_max_rad": 1.2415871620178223,
+    "fk_reproduces_ace_joints_cam_mm": 2.4666956643937255e-05,
+    "cam_R_vs_delivered_max_abs": {
+     "left": 2.9754068986420634e-08,
+     "right": 2.9754068986420634e-08
+    },
+    "placeholders_zero": true
+   },
+   "hands": {
+    "left": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 211,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.179463264282261,
+     "fit_p95_mm": 13.47139244050405,
+     "twist_p95_max_deg": 35.7,
+     "residual_max_rad": 1.217812436557679,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.39,
+      "2": 0.73,
+      "3": 1.15,
+      "4": 1.64,
+      "6": 2.83,
+      "8": 4.28,
+      "10": 6.01,
+      "15": 11.03
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.38,
+      "2": 0.7,
+      "3": 1.11,
+      "4": 1.58,
+      "6": 2.75,
+      "8": 4.14,
+      "10": 5.8,
+      "15": 10.5
+     },
+     "seconds": 13.905277799931355
+    },
+    "right": {
+     "subject": "zyx",
+     "states": {
+      "fitted": 211,
+      "filled": 0,
+      "unknown": 0,
+      "absent": 0
+     },
+     "events": [],
+     "fit_mean_mm": 6.286727492248424,
+     "fit_p95_mm": 12.830118234673668,
+     "twist_p95_max_deg": 35.7,
+     "residual_max_rad": 1.2415871411407837,
+     "flag_counts": {
+      "cma_invalid": 0,
+      "pose_branch": 0,
+      "wrist_gt_2.9mm": 0,
+      "mean_error_gt_15mm": 0,
+      "filled": 0,
+      "unknown": 0
+     },
+     "holdout_mean_mm": {
+      "1": 0.36,
+      "2": 0.67,
+      "3": 1.05,
+      "4": 1.49,
+      "6": 2.58,
+      "8": 3.87,
+      "10": 5.39,
+      "15": 9.8
+     },
+     "holdout_rootrel_mm": {
+      "1": 0.34,
+      "2": 0.62,
+      "3": 0.99,
+      "4": 1.4,
+      "6": 2.38,
+      "8": 3.55,
+      "10": 4.96,
+      "15": 9.03
+     },
+     "seconds": 9.684922400047071
+    }
+   },
+   "seconds": 26.000795500003733
+  }
+ },
+ "failures": {}
+}

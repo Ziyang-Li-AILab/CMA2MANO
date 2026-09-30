@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.DS_Store
+Thumbs.db
+convert_last_version.zip

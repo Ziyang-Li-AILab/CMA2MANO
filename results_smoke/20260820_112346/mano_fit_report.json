@@ -1,0 +1,784 @@
+{
+ "converter": "convert_last_version_v2",
+ "recording_name": "20260820_112346",
+ "recording": "C:\\Users\\11068\\Desktop\\项目材料\\datasets_20\\to_sftp\\20260820_112346\\afc2da35-8a08-4af6-9d7a-3db4dd786336.mcap",
+ "n_frames": 308,
+ "K": [
+  [
+   739.2359008789062,
+   0.0,
+   977.2596435546875
+  ],
+  [
+   0.0,
+   739.2359008789062,
+   594.0872192382812
+  ],
+  [
+   0.0,
+   0.0,
+   1.0
+  ]
+ ],
+ "source_resolution": [
+  1920,
+  1080
+ ],
+ "frame_ms": 33.333,
+ "time_gaps": [
+  {
+   "after_frame": 0,
+   "ms": 299.995
+  },
+  {
+   "after_frame": 1,
+   "ms": 66.668
+  }
+ ],
+ "segments": 3,
+ "clip_ranges": [
+  [
+   12,
+   308
+  ]
+ ],
+ "short_ranges": [],
+ "frames_in_clips": 296,
+ "windows": {
+  "total": 228,
+  "ok": 216
+ },
+ "mount": {
+  "source": "C:\\Users\\11068\\Desktop\\mano线推进\\outputs\\unified_20\\20260820_112346\\mano_fit.npz",
+  "converter": "robust_convert_v1.2",
+  "status": "CALIBRATED",
+  "rotation_source": "fused_fleet_prior",
+  "verdict": "PASS"
+ },
+ "labels": {
+  "state_names": {
+   "0": "fitted",
+   "1": "filled",
+   "2": "unknown",
+   "3": "absent"
+  },
+  "state_weight": {
+   "0": 1.0,
+   "1": 0.5,
+   "2": 0.0,
+   "3": 0.0
+  },
+  "state_exists_target": {
+   "0": 1,
+   "1": 1,
+   "2": -1,
+   "3": -1
+  },
+  "max_fill_frames": 6,
+  "gap_factor": 1.5,
+  "window": 81,
+  "fit_error_weight": 0.5,
+  "flag_bits": {
+   "1": "cma_invalid",
+   "2": "pose_branch",
+   "4": "wrist_gt_2.9mm",
+   "8": "mean_error_gt_15mm",
+   "16": "filled",
+   "32": "unknown"
+  }
+ },
+ "ace_convention": {
+  "frame": "main_left_rectified_camera (x right, y down, z forward), metres",
+  "slots": [
+   "left",
+   "right"
+  ],
+  "ace_go": "global orient axis-angle in the camera frame (T,2,3)",
+  "ace_hp": "hand pose residual axis-angle (T,2,45); physical = hp + hands_mean (smplx flat_hand_mean=False)",
+  "ace_trans": "camera-frame translation (T,2,3); joints_cam = FK(go, hp, beta) + trans, rest wrist at J0 + trans",
+  "ace_betas": "shape (2,10), one shared beta per subject (both hands, all recordings)",
+  "ace_joints_cam": "OpenPose-21 joints (MANO 16 + 5 tip vertices) in the camera frame (T,2,21,3)",
+  "ace_joints2d": "projection normalised by the source resolution (T,2,21,2)",
+  "placeholders": "all ace_* values are 0 where ace_exists == 0 (never NaN)",
+  "exists_target": "1 hand exists (fitted / filled); -1 unknown, ignore in presence losses; 0 never used here",
+  "training": "cut each recording by clip_ranges ([start, stop), >= 81 frames) before building ACE clips"
+ },
+ "checks": {
+  "ace_arrays_finite": {
+   "ace_go": true,
+   "ace_hp": true,
+   "ace_trans": true,
+   "ace_joints_cam": true,
+   "ace_betas": true,
+   "ace_joints2d": true
+  },
+  "ace_hp_residual_max_rad": 1.0732911825180054,
+  "fk_reproduces_ace_joints_cam_mm": 2.235369422898259e-05,
+  "cam_R_vs_delivered_max_abs": {
+   "left": 2.9782739718875462e-08,
+   "right": 2.9782739718875462e-08
+  },
+  "placeholders_zero": true
+ },
+ "hands": {
+  "left": {
+   "present": true,
+   "frames_total": 308,
+   "frames_cma_valid": 308,
+   "states": {
+    "fitted": 308,
+    "filled": 0,
+    "unknown": 0,
+    "absent": 0
+   },
+   "events": [],
+   "flag_counts": {
+    "cma_invalid": 0,
+    "pose_branch": 0,
+    "wrist_gt_2.9mm": 0,
+    "mean_error_gt_15mm": 0,
+    "filled": 0,
+    "unknown": 0
+   },
+   "fit_vs_cma": {
+    "mean_mm": 8.695582572829018,
+    "p95_mm": 19.610421777768558,
+    "tips_mean_mm": 2.2343241465209496,
+    "mcp_mean_mm": 17.052242482258016,
+    "wrist_max_mm": 2.8990000000000404,
+    "per_joint_mean_mm": [
+     2.9,
+     9.57,
+     12.82,
+     18.36,
+     1.01,
+     12.24,
+     13.59,
+     2.89,
+     4.2,
+     20.64,
+     11.35,
+     3.69,
+     1.57,
+     16.1,
+     14.48,
+     4.16,
+     2.9,
+     19.23,
+     8.12,
+     1.3,
+     1.49
+    ],
+    "frame_mean_p50_p95_max_mm": [
+     8.52,
+     9.12,
+     9.14
+    ]
+   },
+   "twist_p95_deg": {
+    "fitted": [
+     15.3,
+     3.5,
+     6.6,
+     11.1,
+     0.2,
+     1.8,
+     15.2,
+     0.7,
+     8.2,
+     12.5,
+     5.2,
+     0.9,
+     36.0,
+     16.5,
+     5.7
+    ],
+    "filled": null,
+    "mano_reference": [
+     20.2,
+     30.2,
+     25.4,
+     19.1,
+     14.6,
+     12.0,
+     38.7,
+     58.7,
+     56.1,
+     24.8,
+     26.0,
+     16.7,
+     47.7,
+     44.1,
+     37.3
+    ]
+   },
+   "residual_max_rad": 1.064796003687625,
+   "residual_risky_frames": 0,
+   "wrist_offset_mm_max": 2.899000000000001,
+   "calibration": {
+    "wrist_kabsch_residual_deg": [
+     3.9,
+     2.36,
+     1.31,
+     4.65
+    ],
+    "finger_sign": {
+     "index": {
+      "sign": -1.0,
+      "agreement": 1.0
+     },
+     "middle": {
+      "sign": -1.0,
+      "agreement": 1.0
+     },
+     "ring": {
+      "sign": -1.0,
+      "agreement": 1.0
+     },
+     "pinky": {
+      "sign": -1.0,
+      "agreement": 1.0
+     }
+    },
+    "tips_on_palmar_side_fraction": 0.786525974025974,
+    "thumb_sign": {
+     "cmc": 1.0,
+     "mcp_ip": 1.0,
+     "mahalanobis_median_sum": {
+      "+1/+1": 42.76,
+      "+1/-1": 175.3,
+      "-1/+1": 394.0,
+      "-1/-1": 279.26
+     }
+    }
+   },
+   "loss_terms": {
+    "data": 1848.926557759006,
+    "anchor": 44.88844115664795,
+    "twist": 0.5037356267769519,
+    "hinge": 0.10805297406702165,
+    "smooth": 0.05770229394581786
+   },
+   "history": [
+    {
+     "step": 0,
+     "loss": 2939.9864023391597,
+     "data": 2319.323867877042,
+     "anchor": 0.0,
+     "twist": 618.2518748129345,
+     "hinge": 2.256270597714485,
+     "smooth": 0.15438905146861157
+    },
+    {
+     "step": 50,
+     "loss": 1911.0691780591103,
+     "data": 1868.1734192755107,
+     "anchor": 42.52101086747875,
+     "twist": 0.06402680413362988,
+     "hinge": 0.23434929601824175,
+     "smooth": 0.07637181596896676
+    },
+    {
+     "step": 100,
+     "loss": 1895.5490338618072,
+     "data": 1853.5309663434346,
+     "anchor": 41.011170414812824,
+     "twist": 0.8333061017504356,
+     "hinge": 0.1108865198335558,
+     "smooth": 0.06270448197591157
+    },
+    {
+     "step": 150,
+     "loss": 1894.530128866478,
+     "data": 1849.7307813295274,
+     "anchor": 44.1115542710656,
+     "twist": 0.5210450558111673,
+     "hinge": 0.10864857442626986,
+     "smooth": 0.05809963564745644
+    },
+    {
+     "step": 200,
+     "loss": 1894.486989756574,
+     "data": 1848.9847298906664,
+     "anchor": 44.833425312713345,
+     "twist": 0.502435864600861,
+     "hinge": 0.10805941915639021,
+     "smooth": 0.05833926943694262
+    },
+    {
+     "step": 250,
+     "loss": 1895.370837315925,
+     "data": 1849.3842448978792,
+     "anchor": 44.93185628504553,
+     "twist": 0.5037541504843266,
+     "hinge": 0.1079694060323145,
+     "smooth": 0.44301257648364073
+    },
+    {
+     "step": 300,
+     "loss": 1894.5412558034534,
+     "data": 1848.9110519554083,
+     "anchor": 44.93816786431148,
+     "twist": 0.5032288028607299,
+     "hinge": 0.10792001301668704,
+     "smooth": 0.08088716785627058
+    }
+   ],
+   "fit_config": {
+    "steps": 300,
+    "lr": 0.02,
+    "anchor": 50.0,
+    "twist": 2000.0,
+    "hinge": 1000.0,
+    "smooth": 0.05,
+    "threads": 4
+   },
+   "fill_holdout_mm": {
+    "1": {
+     "samples": 102,
+     "mean_mm": 0.08983837715757571,
+     "p95_mm": 0.33411607275809885,
+     "max_mm": 0.8151556349503685,
+     "wrist_mean_mm": 0.06153989041907649,
+     "tips_mean_mm": 0.11276402763106443,
+     "rootrel_mean_mm": 0.053725236505126665,
+     "rootrel_p95_mm": 0.1988689614293003
+    },
+    "2": {
+     "samples": 101,
+     "mean_mm": 0.16702079104263295,
+     "p95_mm": 0.6559985705022435,
+     "max_mm": 4.219818446798546,
+     "wrist_mean_mm": 0.11793833770933874,
+     "tips_mean_mm": 0.20425686276216268,
+     "rootrel_mean_mm": 0.08653916721013007,
+     "rootrel_p95_mm": 0.32706777761535516
+    },
+    "3": {
+     "samples": 101,
+     "mean_mm": 0.2554614858514784,
+     "p95_mm": 1.0244035030984806,
+     "max_mm": 3.5906000330261376,
+     "wrist_mean_mm": 0.18454241190836948,
+     "tips_mean_mm": 0.310301420154031,
+     "rootrel_mean_mm": 0.11830071070820666,
+     "rootrel_p95_mm": 0.44240946771731604
+    },
+    "4": {
+     "samples": 101,
+     "mean_mm": 0.3567430545589947,
+     "p95_mm": 1.5303895276187347,
+     "max_mm": 3.4768986953149685,
+     "wrist_mean_mm": 0.2611017258603971,
+     "tips_mean_mm": 0.4287841073113174,
+     "rootrel_mean_mm": 0.15454098158821075,
+     "rootrel_p95_mm": 0.5865439545384551
+    },
+    "6": {
+     "samples": 100,
+     "mean_mm": 0.5902106771221594,
+     "p95_mm": 2.862561540034219,
+     "max_mm": 6.318502070483649,
+     "wrist_mean_mm": 0.4491979319795755,
+     "tips_mean_mm": 0.6997344492361812,
+     "rootrel_mean_mm": 0.224612566074152,
+     "rootrel_p95_mm": 0.8613207703618739
+    },
+    "8": {
+     "samples": 99,
+     "mean_mm": 0.8720789356127175,
+     "p95_mm": 4.579174768759406,
+     "max_mm": 9.745381868189503,
+     "wrist_mean_mm": 0.6793309930893371,
+     "tips_mean_mm": 1.0202914553402236,
+     "rootrel_mean_mm": 0.30352264623833847,
+     "rootrel_p95_mm": 1.2276993017388045
+    },
+    "10": {
+     "samples": 99,
+     "mean_mm": 1.191795568884824,
+     "p95_mm": 6.4065686325123705,
+     "max_mm": 13.56373959360315,
+     "wrist_mean_mm": 0.9481023947638827,
+     "tips_mean_mm": 1.3809979515852893,
+     "rootrel_mean_mm": 0.3820743077551304,
+     "rootrel_p95_mm": 1.620256240332555
+    },
+    "15": {
+     "samples": 97,
+     "mean_mm": 2.16539768978661,
+     "p95_mm": 12.664843227943567,
+     "max_mm": 24.79675155651006,
+     "wrist_mean_mm": 1.7750051871748938,
+     "tips_mean_mm": 2.4427479171633455,
+     "rootrel_mean_mm": 0.6055944511259663,
+     "rootrel_p95_mm": 2.779426909158417
+    }
+   },
+   "checks": {
+    "refit_fk_consistency_mm": 0.0,
+    "camera_fk_consistency_mm": 2.235369422898259e-05
+   },
+   "seconds": 13.649775400059298,
+   "subject": "lxy",
+   "beta": [
+    0.4178955595445072,
+    -0.9881346570188533,
+    -0.13645510345957945,
+    -0.24323532805729978,
+    0.009529780678736647,
+    -0.10251258415979861,
+    -0.2433256538355228,
+    -0.041968093331502226,
+    -0.001846467632935962,
+    -0.047852213956751356
+   ],
+   "old_beta": [
+    1.6941184997558594,
+    2.0422580242156982,
+    -3.0,
+    -3.0,
+    -1.2190210819244385,
+    -3.0,
+    -3.0,
+    3.0,
+    -0.06224139779806137,
+    2.668870687484741
+   ]
+  },
+  "right": {
+   "present": true,
+   "frames_total": 308,
+   "frames_cma_valid": 296,
+   "states": {
+    "fitted": 296,
+    "filled": 0,
+    "unknown": 12,
+    "absent": 0
+   },
+   "events": [
+    {
+     "start": 0,
+     "stop": 12,
+     "frames": 12,
+     "state": "unknown",
+     "reason": "recording_start"
+    }
+   ],
+   "flag_counts": {
+    "cma_invalid": 12,
+    "pose_branch": 0,
+    "wrist_gt_2.9mm": 0,
+    "mean_error_gt_15mm": 0,
+    "filled": 0,
+    "unknown": 12
+   },
+   "fit_vs_cma": {
+    "mean_mm": 11.803418058168164,
+    "p95_mm": 22.536301807150757,
+    "tips_mean_mm": 3.6714461473895623,
+    "mcp_mean_mm": 18.764519016311926,
+    "wrist_max_mm": 2.899000000000029,
+    "per_joint_mean_mm": [
+     1.68,
+     8.18,
+     9.41,
+     15.12,
+     5.78,
+     16.28,
+     13.74,
+     8.66,
+     1.3,
+     26.28,
+     14.98,
+     13.06,
+     2.64,
+     16.81,
+     20.81,
+     16.1,
+     4.46,
+     15.68,
+     19.33,
+     13.39,
+     4.19
+    ],
+    "frame_mean_p50_p95_max_mm": [
+     12.06,
+     12.15,
+     12.17
+    ]
+   },
+   "twist_p95_deg": {
+    "fitted": [
+     15.2,
+     2.2,
+     4.6,
+     15.2,
+     0.7,
+     2.8,
+     11.7,
+     4.6,
+     8.6,
+     15.3,
+     5.8,
+     2.9,
+     36.0,
+     10.2,
+     7.4
+    ],
+    "filled": null,
+    "mano_reference": [
+     20.2,
+     30.2,
+     25.4,
+     19.1,
+     14.6,
+     12.0,
+     38.7,
+     58.7,
+     56.1,
+     24.8,
+     26.0,
+     16.7,
+     47.7,
+     44.1,
+     37.3
+    ]
+   },
+   "residual_max_rad": 1.0732911591646768,
+   "residual_risky_frames": 0,
+   "wrist_offset_mm_max": 2.899000000000001,
+   "calibration": {
+    "wrist_kabsch_residual_deg": [
+     4.0,
+     1.24,
+     1.43,
+     4.2
+    ],
+    "finger_sign": {
+     "index": {
+      "sign": 1.0,
+      "agreement": 1.0
+     },
+     "middle": {
+      "sign": 1.0,
+      "agreement": 1.0
+     },
+     "ring": {
+      "sign": 1.0,
+      "agreement": 1.0
+     },
+     "pinky": {
+      "sign": 1.0,
+      "agreement": 1.0
+     }
+    },
+    "tips_on_palmar_side_fraction": 0.8733108108108109,
+    "thumb_sign": {
+     "cmc": -1.0,
+     "mcp_ip": -1.0,
+     "mahalanobis_median_sum": {
+      "+1/+1": 289.29,
+      "+1/-1": 404.12,
+      "-1/+1": 170.27,
+      "-1/-1": 37.7
+     }
+    }
+   },
+   "loss_terms": {
+    "data": 2685.749156932667,
+    "anchor": 50.35349662838713,
+    "twist": 0.6308757061855308,
+    "hinge": 0.11711693370712112,
+    "smooth": 0.0829264277467398
+   },
+   "history": [
+    {
+     "step": 0,
+     "loss": 4222.64172799227,
+     "data": 3567.6501000111325,
+     "anchor": 0.0,
+     "twist": 643.724331251114,
+     "hinge": 11.099874767701642,
+     "smooth": 0.16742196232178294
+    },
+    {
+     "step": 50,
+     "loss": 2762.097391023065,
+     "data": 2715.8051063668677,
+     "anchor": 45.716428523343446,
+     "twist": 0.17330085338598455,
+     "hinge": 0.3071605790483274,
+     "smooth": 0.09539470041971418
+    },
+    {
+     "step": 100,
+     "loss": 2740.71679340559,
+     "data": 2695.9074974781875,
+     "anchor": 43.60415650139627,
+     "twist": 1.0144904933633876,
+     "hinge": 0.11640992022633487,
+     "smooth": 0.0742390124165929
+    },
+    {
+     "step": 150,
+     "loss": 2737.6172910853707,
+     "data": 2689.1360203401086,
+     "anchor": 47.639967731220636,
+     "twist": 0.642880586004754,
+     "hinge": 0.11969504563408608,
+     "smooth": 0.07872738240274882
+    },
+    {
+     "step": 200,
+     "loss": 2737.0347585463696,
+     "data": 2686.7614785872174,
+     "anchor": 49.44696774954874,
+     "twist": 0.6299635380619032,
+     "hinge": 0.11786277147620017,
+     "smooth": 0.07848590006554015
+    },
+    {
+     "step": 250,
+     "loss": 2737.243887124414,
+     "data": 2686.1618166262315,
+     "anchor": 50.13137780286275,
+     "twist": 0.6309855513371316,
+     "hinge": 0.1172947965014291,
+     "smooth": 0.20241234748075315
+    },
+    {
+     "step": 300,
+     "loss": 2736.9733828516387,
+     "data": 2685.7648017115785,
+     "anchor": 50.36122664022229,
+     "twist": 0.6309026863787917,
+     "hinge": 0.11710211830745634,
+     "smooth": 0.0993496951519649
+    }
+   ],
+   "fit_config": {
+    "steps": 300,
+    "lr": 0.02,
+    "anchor": 50.0,
+    "twist": 2000.0,
+    "hinge": 1000.0,
+    "smooth": 0.05,
+    "threads": 4
+   },
+   "fill_holdout_mm": {
+    "1": {
+     "samples": 98,
+     "mean_mm": 0.0988939806755728,
+     "p95_mm": 0.34670132021285716,
+     "max_mm": 2.028364502718659,
+     "wrist_mean_mm": 0.07849658622560506,
+     "tips_mean_mm": 0.1322304878695679,
+     "rootrel_mean_mm": 0.0775079027283771,
+     "rootrel_p95_mm": 0.2642829044430326
+    },
+    "2": {
+     "samples": 98,
+     "mean_mm": 0.16598969709703024,
+     "p95_mm": 0.624260285917736,
+     "max_mm": 3.6502247853166163,
+     "wrist_mean_mm": 0.1153830756382152,
+     "tips_mean_mm": 0.21369562621279925,
+     "rootrel_mean_mm": 0.10219966064027662,
+     "rootrel_p95_mm": 0.32072021894334063
+    },
+    "3": {
+     "samples": 98,
+     "mean_mm": 0.24325226934460836,
+     "p95_mm": 0.9922668859088262,
+     "max_mm": 3.3696674567805633,
+     "wrist_mean_mm": 0.17849780955309297,
+     "tips_mean_mm": 0.3011462105474825,
+     "rootrel_mean_mm": 0.1308324172180992,
+     "rootrel_p95_mm": 0.4332082891327202
+    },
+    "4": {
+     "samples": 97,
+     "mean_mm": 0.3341596481831933,
+     "p95_mm": 1.5020963212262828,
+     "max_mm": 4.100146252452221,
+     "wrist_mean_mm": 0.25206940237351755,
+     "tips_mean_mm": 0.40547366444360655,
+     "rootrel_mean_mm": 0.15942606018502903,
+     "rootrel_p95_mm": 0.524986806932215
+    },
+    "6": {
+     "samples": 97,
+     "mean_mm": 0.566828886228739,
+     "p95_mm": 2.715362409784032,
+     "max_mm": 5.995714291030786,
+     "wrist_mean_mm": 0.4338064238883321,
+     "tips_mean_mm": 0.6761232698624725,
+     "rootrel_mean_mm": 0.23652326010806954,
+     "rootrel_p95_mm": 0.8749652488451062
+    },
+    "8": {
+     "samples": 96,
+     "mean_mm": 0.8347097718327532,
+     "p95_mm": 4.236433863693554,
+     "max_mm": 9.33685630239967,
+     "wrist_mean_mm": 0.651574043513134,
+     "tips_mean_mm": 0.9845413817779426,
+     "rootrel_mean_mm": 0.32032369523418014,
+     "rootrel_p95_mm": 1.2339312593895853
+    },
+    "10": {
+     "samples": 95,
+     "mean_mm": 1.1379109052002643,
+     "p95_mm": 6.0769480844564665,
+     "max_mm": 12.23314674952616,
+     "wrist_mean_mm": 0.9052512792030077,
+     "tips_mean_mm": 1.3290174645580513,
+     "rootrel_mean_mm": 0.4033948953723961,
+     "rootrel_p95_mm": 1.6748017393910066
+    },
+    "15": {
+     "samples": 94,
+     "mean_mm": 2.074963861286104,
+     "p95_mm": 11.938188413527936,
+     "max_mm": 21.85067826509907,
+     "wrist_mean_mm": 1.6922287795983018,
+     "tips_mean_mm": 2.377205650321317,
+     "rootrel_mean_mm": 0.6513795011321429,
+     "rootrel_p95_mm": 2.883352634775026
+    }
+   },
+   "checks": {
+    "refit_fk_consistency_mm": 0.0,
+    "camera_fk_consistency_mm": 2.2129832411010852e-05
+   },
+   "seconds": 13.99859319999814,
+   "subject": "lxy",
+   "beta": [
+    0.4178955595445072,
+    -0.9881346570188533,
+    -0.13645510345957945,
+    -0.24323532805729978,
+    0.009529780678736647,
+    -0.10251258415979861,
+    -0.2433256538355228,
+    -0.041968093331502226,
+    -0.001846467632935962,
+    -0.047852213956751356
+   ],
+   "old_beta": [
+    1.1076329946517944,
+    -1.2072436809539795,
+    -3.0,
+    -3.0,
+    -1.2831236124038696,
+    -3.0,
+    -3.0,
+    3.0,
+    1.2460033893585205,
+    3.0
+   ]
+  }
+ },
+ "seconds": 30.673531099921092
+}

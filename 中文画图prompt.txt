@@ -1,0 +1,21 @@
+宽幅横向科学论文插图，扁平矢量，Nature/Science 期刊风格。纸色背景 #F6F3EC，墨色 #1A2332，1px 细线，无渐变、无立体高光、无阴影、无神经网络图标、无写实照片手。标题用衬线体，标注用小号无衬线体。单幅图，从左到右三栏，底部一条未使用数据条。图中说明文字全部用中文；仅文件名、变量名、公式、MANO 术语保留英文，拼写必须与下面给定的完全一致。
+
+标题：一条录制：CMA 到 ACE 训练标签
+
+第一栏，三张输入卡片，填色和角标各不相同：
+卡片 A，灰蓝 #E7EEF5，21 关节骨架角标。标题「清洗后的动捕手」。三枚实心标签：「双手各 21 点，毫米，动捕房间系」「frame_valid」「status：MEASURED、REPAIRED、INVALID」。脚注「读取、清洗、时间对齐沿用旧流程。本版不改。」
+卡片 B，陶土色 #F8EBE3，安装外参角标，不要画成正在标定的相机。标题「已交付外参 mano_fit.npz」。标签：「mount_R」「mount_t_mm」。公式「cam_R = mount_R R_rigᵀ」「cam_t = mount_t_mm/1000 − cam_R (o/1000)」。脚注「来自 outputs/unified_20。不重估。rig 无效处为 NaN。」
+卡片 C，森绿 #E5F2EA，六条长度尺角标。标题「同一被试的全部 *_Human.cma」。标签：「四指整链：腕到指尖」「掌宽：食指 MCP 到小指 MCP」「拇指链：四段之和」。脚注「左右手、全部录制先平均。不追逐段骨长。」
+
+卡片下方一条窄的对齐条：「拟合只用 frame_valid。RGB 断点：相邻间隔 > 1.5 × 名义间隔。世界旋转在 RGB 时间戳上，前后两行都有效时 slerp。」
+
+第二栏，上下两条并行流水线，汇入底部一条金色拟合牌，外框颜色不同：
+上路，靛蓝 #E8ECF6，一条共享 β 图标。栏题「被试共享 β。不用图像。」方框从左到右：「骨架常量偏移」→「六个长度」→「该被试全部目标取平均」→「MAP，β ∈ [−3, 3]」。公式牌：「r = [(L(β) − L̄) / σ ; β]」「σ = 3, 3, 3, 3, 3, 6 mm」。小注「先验 ‖β‖²，强度与录制条数无关。左右模板在同一 β 下骨长对称，左右槽各写同一份。」输出标签：「beta，10 维。ace_betas 的两个槽相同。」
+下路，青绿 #E4F3F2，一根骨头配一条屈曲轴的线框图标。栏题「无参考帧逐骨标定。不挑参考帧。」方框：「骨方向 o = offsets，局部 −x」→「屈曲轴 e：手指为局部 y，拇指为局部 z」→「符号 s」。公式牌：「C_j = frame(o, s·e) frame(a, f)ᵀ」「G_j = W_c C_j」。小注「腕：Kabsch，腕到四个 MCP，不用拇指 CMC。手指 s：绕 s·y 正转时近节骨朝掌心。拇指 s：在 {+1,−1}² 里取 Mahalanobis 中位数之和最小。psi 只验证，最优应接近 0，不写入姿态。」输出标签：「go、physical 初值。hp = physical − hands_mean。」
+底部金色公式牌横贯本栏：「固定 β 重拟合。Adam，300 步，lr = 0.02，全部有效帧一起。」「L = L_data + 50 L_anchor + 2000 L_twist + 1000 L_hinge + 0.05 L_smooth」。小注「腕对齐；腕平移限制在半径 2.899 mm 的球内。权重：腕 4；指尖与四指 MCP 为 1；PIP、DIP、拇指 MCP、拇指 IP 为 0.5；拇指 CMC 为 0.1；REPAIRED × 0.5；INVALID = 0。扭转容差：MCP 15°，PIP/DIP 8°，拇指 CMC 35°、MCP 25°、IP 12°。铰链容差：PIP/DIP 10°，拇指 IP 15°。平滑只连帧号相邻且间隔 ≤ 1.5 × 名义间隔的帧。」
+
+第三栏，一张深墨色导出卡 #1A2332，文字米色，分屏监视器图标。栏题「标签，再变到左目相机系。」四枚状态：「fitted　exists=1　gt_weight=1」「filled　≤ 6 帧，slerp，gt_weight=0.5」「unknown　exists_target=−1　gt_weight=0」「absent　本批未出现，同样 −1」。小注「filled：不跨 RGB 断点，且 cam_R、cam_t 有限。go 与 15 个局部旋转 slerp，腕线性。平均关节误差 > 15 mm：exists 仍为 1，gt_weight 降到 0.5。」公式三行：「go_cam = cam_R R(go_w)」「trans_cam = cam_R (J0 + trans_w) + cam_t − J0」「joints_cam = FK(go_cam, hp, β) + trans_cam」。三个输出文件：「mano_fit.npz」「mano_fit_report.json」「subject_betas.json」。监视器下一条时间轴，断点处切开，只标出 clip_ranges：同一 segment_id、无 unknown、[start, stop)、至少 81 帧。监视器下说明：「训练读 ace_*。exists=0 写 0，不写 NaN。‖hp‖ < 2.8。{side}_* 是世界系副本，不要拿去训练。」
+
+底部虚线灰条，标题「本版不做」：「右目」「/main/pose」「/main/imu」「深度」「外参重估」「参考帧把掌心对到局部 y」「自由 β 追逐逐段骨长」「缺失帧写成手消失或 NaN」。
+
+箭头用细墨线，旁边用小号公式，不要装饰圆点。所有标签按上面的文字原样书写，不要改写成别的英文，不要自行加模块。留白充足，基线对齐，文字互不重叠。
